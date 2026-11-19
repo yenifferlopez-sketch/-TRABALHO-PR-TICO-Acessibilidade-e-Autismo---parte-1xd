@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Escolar Acessível</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header id="inicio">
+    <div class="container">
+      <h1>Guia Escolar Acessível</h1>
+      <p>Este espaço apresenta informações escolares de maneira simples, organizada e acessível.</p>
+    </div>
+  </header>
+
+  <!-- Menu de Navegação -->
+  <nav aria-label="Menu principal">
+    <div class="container">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#informacoes">Informações</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+
+    <!-- Seção de Boas-vindas e Acesso Rápido -->
+    <section class="bloco" aria-labelledby="titulo-boas-vindas">
+      <h2 id="titulo-boas-vindas">Bem-vindo à nossa escola</h2>
+      <p>Aqui você encontra os principais horários, locais e formas de atendimento sem excesso de informações.</p>
+
+      <!-- Imagem com descrição acessível (alt) -->
+      <figure class="imagem-container">
+        <img 
+          src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='700' height='240' viewBox='0 0 700 240'><rect width='700' height='240' fill='%23E2E8F0'/><rect x='170' y='60' width='360' height='140' fill='%23FFFFFF' stroke='%230F4C81' stroke-width='4'/><polygon points='150,60 350,15 550,60' fill='%230F4C81'/><rect x='320' y='130' width='60' height='70' fill='%23CBD5E1' stroke='%230F4C81' stroke-width='3'/><rect x='210' y='95' width='50' height='45' fill='%23E0F2FE' stroke='%230F4C81' stroke-width='3'/><rect x='440' y='95' width='50' height='45' fill='%23E0F2FE' stroke='%230F4C81' stroke-width='3'/><polygon points='260,200 320,175 320,200' fill='%2394A3B8'/><rect x='0' y='200' width='700' height='40' fill='%23CBD5E1'/></svg>" 
+          alt="Ilustração simples da fachada de uma escola com telhado azul, janelas claras, porta central e rampa de acessibilidade na entrada."
+        >
+        <figcaption>Entrada principal da escola com acesso facilitado.</figcaption>
+      </figure>
+
+      <!-- Botões de Ação -->
+      <div class="grupo-botoes">
+        <a href="#informacoes" class="botao">Ver Horários</a>
+        <a href="#contato" class="botao botao-secundario">Falar com a Secretaria</a>
+      </div>
+    </section>
+
+    <!-- Seção de Informações Importantes -->
+    <section id="informacoes" class="bloco" aria-labelledby="titulo-informacoes">
+      <h2 id="titulo-informacoes">Informações Importantes</h2>
+      <p>Confira os horários e locais de funcionamento da escola:</p>
+
+      <div class="lista-info">
+        <div class="item-info">
+          <h3>Horário das aulas</h3>
+          <p>07h00 às 12h00</p>
+        </div>
+
+        <div class="item-info">
+          <h3>Intervalo</h3>
+          <p>09h30 às 09h50</p>
+        </div>
+
+        <div class="item-info">
+          <h3>Secretaria</h3>
+          <p>Bloco Administrativo — Térreo</p>
+        </div>
+
+        <div class="item-info">
+          <h3>Atendimento</h3>
+          <p>08h00 às 17h00 (Segunda a Sexta-feira)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Comunicação Acessível -->
+    <section id="dicas" class="bloco" aria-labelledby="titulo-dicas">
+      <h2 id="titulo-dicas">Comunicação Acessível</h2>
+      <p>Para tornar a leitura mais confortável e previsível para todas as pessoas, seguimos estas práticas:</p>
+
+      <ul class="lista-dicas">
+        <li>Utilizar linguagem clara e direta.</li>
+        <li>Evitar textos muito longos.</li>
+        <li>Organizar as informações por tópicos.</li>
+        <li>Utilizar títulos para separar os assuntos.</li>
+        <li>Evitar excesso de informações na mesma tela.</li>
+      </ul>
+    </section>
+
+    <!-- Seção de Contato -->
